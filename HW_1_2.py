@@ -1,4 +1,4 @@
-Print("Операции над числами")
+print("Операции над числами")
 def some_operations(a, b):
     print(a + b)
     print(a - b)
