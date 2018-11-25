@@ -1,4 +1,4 @@
-Print("Операции + и *")
+print("Операции + и *")
 a = int(input("input number: "))
 print(int(a), float(a), bool(a), str(a))
 b = int(input("input number: "))
