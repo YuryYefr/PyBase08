@@ -8,4 +8,4 @@ while b.isalpha():
 Some_list = 0
 for i in range(int(a), int(b) + 1):
     Some_list += i
-    print(Some_list)
+print(Some_list)
