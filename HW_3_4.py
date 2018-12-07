@@ -2,7 +2,7 @@ import pprint
 from string import whitespace, punctuation
 
 
-def get_vocabluary(text):
+def get_vocabulary(text):
     result = {}
     for element in text.split():
         if element not in result:
