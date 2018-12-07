@@ -18,5 +18,5 @@ if __name__ == "__main__":
            "sonnets are poems that William Shakespeare wrote on a variety of themes." \
  \
            " When discussing or referring to Shakespeare’s sonnets, it is almost always a reference to the 154 sonnets"
-    vocabluary = get_vocabluary(TEXT)
-    pprint.pformat(vocabluary)
+    vocabulary = get_vocabulary(TEXT)
+    pprint.pformat(vocabulary)
