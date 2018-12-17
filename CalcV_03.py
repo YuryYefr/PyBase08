@@ -47,13 +47,13 @@ def logic():
           "\n4. if you want to multiply"
           )
     choice = user_oper()
-    user_numbersDict = {"1": add(a, b),
-                        "2": minus(a, b),
-                        "3": division(a, b),
-                        "4": multiply(a, b),
+    user_numbersDict = {"1": add,
+                        "2": minus,
+                        "3": division,
+                        "4": multiply,
                         }
     if choice in user_numbersDict:
-        return user_numbersDict[choice]
+        return user_numbersDict[choice](a, b)
     return result
 
 
