@@ -4,7 +4,7 @@ from string import ascii_letters, digits, whitespace, punctuation
 def clear_word(word, filterstr):
     result = ""
     for element in word.split():
-        if element in filterstr:
+        if element not in filterstr:
             result = word.replace(element, "")
     for element in word[::]:
         if element not in filterstr:
