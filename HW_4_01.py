@@ -7,7 +7,7 @@ def clear_word(word, filterstr):
         if element in filterstr:
             result = word.replace(element, "")
     for element in word[::]:
-        if element in filterstr:
+        if element not in filterstr:
             raise ValueError(word.index(element))
 
     return result
